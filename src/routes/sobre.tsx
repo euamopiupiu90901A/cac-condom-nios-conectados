@@ -1,9 +1,10 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 
 import equipeImg from "@/assets/sobre-equipe.jpg";
 import dep1 from "@/assets/depoimento-1.jpg";
 import dep2 from "@/assets/depoimento-2.jpg";
 import dep3 from "@/assets/depoimento-3.jpg";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export const Route = createFileRoute("/sobre")({
   head: () => ({
@@ -121,9 +122,9 @@ function Sobre() {
             ))}
           </ul>
           <div className="mt-14">
-            <Link to="/contato" className="btn-navy">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-navy">
               Solicite uma Proposta
-            </Link>
+            </a>
           </div>
         </div>
       </section>

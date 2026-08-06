@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute } from "@tanstack/react-router";
 import {
   ClipboardList,
   Users,
@@ -10,6 +10,7 @@ import {
   ScrollText,
   Building2,
 } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export const Route = createFileRoute("/servicos")({
   head: () => ({
@@ -130,9 +131,9 @@ function Servicos() {
             ))}
           </ul>
           <div className="mt-14">
-            <Link to="/contato" className="btn-navy">
+            <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-navy">
               Solicite uma Proposta
-            </Link>
+            </a>
           </div>
         </div>
       </section>

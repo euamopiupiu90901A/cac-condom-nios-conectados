@@ -11,6 +11,7 @@ import {
 
 import heroImg from "@/assets/hero-condominio.jpg";
 import appImg from "@/assets/hand-phone-app.svg";
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -60,9 +61,9 @@ function Index() {
               análise de dados e práticas modernas de gestão condominial.
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Link to="/contato" className="btn-navy">
+              <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="btn-navy">
                 Solicite uma Proposta
-              </Link>
+              </a>
               <Link to="/servicos" className="btn-outline-navy">
                 Ver serviços
               </Link>
@@ -157,12 +158,14 @@ function Index() {
           <h2 className="max-w-xl text-2xl font-extrabold uppercase tracking-[0.02em] md:text-3xl">
             Pronto para uma gestão condominial mais transparente?
           </h2>
-          <Link
-            to="/contato"
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-md bg-background px-8 py-4 text-xs font-bold uppercase tracking-[0.14em] text-primary transition-opacity hover:opacity-90"
           >
             Solicite uma Proposta
-          </Link>
+          </a>
         </div>
       </section>
     </>

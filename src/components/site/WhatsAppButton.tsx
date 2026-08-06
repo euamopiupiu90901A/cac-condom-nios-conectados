@@ -1,6 +1,4 @@
-const WHATSAPP_URL =
-  "https://wa.me/5544997005146?text=" +
-  encodeURIComponent("Olá! Gostaria de solicitar uma proposta para meu condomínio.");
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 export function WhatsAppButton() {
   return (

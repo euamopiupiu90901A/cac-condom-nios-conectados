@@ -33,9 +33,7 @@ const schema = z.object({
   mensagem: z.string().trim().min(5, "Escreva sua mensagem").max(1000),
 });
 
-const WHATSAPP_URL =
-  "https://wa.me/5544997005146?text=" +
-  encodeURIComponent("Olá! Gostaria de solicitar uma proposta para meu condomínio.");
+import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 function Contato() {
   const [errors, setErrors] = useState<Record<string, string>>({});
