@@ -133,7 +133,7 @@ function Index() {
                 loading="lazy"
                 className="w-full rounded-lg object-cover"
               />
-              <h3 className="absolute left-1/2 top-4 -translate-x-1/2 rounded-full bg-background px-4 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-primary shadow-card">
+              <h3 className="absolute left-0 top-4 text-xs font-bold uppercase tracking-[0.14em] text-primary">
                 Baixe o aplicativo
               </h3>
             </div>
