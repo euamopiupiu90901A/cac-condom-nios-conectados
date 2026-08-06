@@ -38,8 +38,8 @@ export function Footer() {
                   (44) 3031-0406
                 </a>{" "}
                 ·{" "}
-                <a href="tel:+554491739741" className="hover:underline">
-                  (44) 9173-9741
+                <a href="tel:+5544991739741" className="hover:underline">
+                  (44) 99173-9741
                 </a>
               </span>
             </li>

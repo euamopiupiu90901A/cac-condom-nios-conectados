@@ -11,7 +11,7 @@ export const Route = createFileRoute("/contato")({
       {
         name: "description",
         content:
-          "Fale com a C.A.C., administradora de condomínios em Maringá-PR. Av. Brasil, 4312, Centro. Telefone (44) 3031-0406 e WhatsApp (44) 9 9700-5146.",
+          "Fale com a C.A.C., administradora de condomínios em Maringá-PR. Av. Brasil, 4312, Centro. Telefone (44) 3031-0406 e WhatsApp (44) 99173-9741.",
       },
       { property: "og:title", content: "Contato | Administradora de Condomínios Maringá — C.A.C." },
       {
@@ -143,15 +143,15 @@ function Contato() {
                   (44) 3031-0406
                 </a>
                 <br />
-                <a href="tel:+554491739741" className="hover:text-primary">
-                  (44) 9173-9741
+                <a href="tel:+5544991739741" className="hover:text-primary">
+                  (44) 99173-9741
                 </a>
               </span>
             </li>
             <li className="flex gap-4">
               <MessageCircle className="mt-0.5 size-5 shrink-0 text-primary" aria-hidden="true" />
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
-                WhatsApp (44) 9 9700-5146
+                WhatsApp (44) 99173-9741
               </a>
             </li>
             <li className="flex gap-4">

@@ -116,7 +116,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             addressCountry: "BR",
             neighborhood: "Centro",
           },
-          telephone: ["+554430310406", "+554491739741"],
+          telephone: ["+554430310406", "+5544991739741"],
           email: "contato@caccondominios.com.br",
           areaServed: "Maringá, Paraná",
           priceRange: "$$",
