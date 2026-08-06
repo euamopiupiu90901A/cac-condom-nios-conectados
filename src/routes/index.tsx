@@ -74,7 +74,7 @@ function Index() {
               </div>
               <div>
                 <dt className="section-label">Carteira</dt>
-                <dd className="mt-1 text-2xl font-extrabold text-primary">69 condomínios</dd>
+                <dd className="mt-1 text-2xl font-extrabold text-primary">+70 condomínios</dd>
               </div>
               <div>
                 <dt className="section-label">Atuação</dt>

@@ -69,7 +69,7 @@ function Sobre() {
           <p className="mt-6 text-base leading-relaxed text-secondary">
             A C.A.C. — Consultoria e Apoio a Condomínios nasceu em Maringá e construiu, ao longo de
             mais de 38 anos, uma trajetória sólida na administração condominial. Hoje somos
-            responsáveis por uma carteira de cerca de 69 condomínios, entre residenciais e
+            responsáveis por uma carteira de +70 condomínios, entre residenciais e
             comerciais, atendidos por uma equipe multidisciplinar.
           </p>
           <h2 className="heading-xl mt-12 text-2xl md:text-3xl">Missão</h2>
