@@ -12,6 +12,7 @@ import {
 import heroImg from "@/assets/hero-condominio.jpg";
 import appImg from "@/assets/hand-phone-app.svg";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
+import { depoimentos } from "@/lib/depoimentos";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -155,6 +156,35 @@ function Index() {
               </a>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-cream">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <h2 className="heading-xl text-2xl md:text-3xl">Feedback de moradores e síndicos</h2>
+          <ul className="mt-10 grid gap-6 md:grid-cols-3">
+            {depoimentos.map((d) => (
+              <li
+                key={d.autor}
+                className="flex flex-col rounded-lg border border-border bg-card p-7 shadow-card"
+              >
+                <img
+                  src={d.img}
+                  alt={d.alt}
+                  width={512}
+                  height={512}
+                  loading="lazy"
+                  className="size-16 shrink-0 rounded-full object-cover"
+                />
+                <blockquote className="mt-5 text-sm leading-relaxed text-secondary">
+                  "{d.texto}"
+                </blockquote>
+                <p className="mt-5 text-xs font-bold uppercase tracking-[0.14em] text-primary">
+                  {d.autor}
+                </p>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
 
