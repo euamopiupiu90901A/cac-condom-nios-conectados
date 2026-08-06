@@ -44,35 +44,39 @@ export function Header() {
 
       <nav
         aria-label="Navegação principal"
-        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-start gap-x-8 gap-y-3 px-5 pt-2 pb-3 md:flex"
+        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-5 pt-2 pb-3 md:flex"
       >
-        {links.map((l) => (
-          <Link
-            key={l.to}
-            to={l.to}
-            activeOptions={{ exact: l.to === "/" }}
-            className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary transition-colors hover:text-primary"
-            activeProps={{ className: "text-primary" }}
+        <div className="flex flex-wrap items-center gap-x-8 gap-y-3">
+          {links.map((l) => (
+            <Link
+              key={l.to}
+              to={l.to}
+              activeOptions={{ exact: l.to === "/" }}
+              className="text-xs font-semibold uppercase tracking-[0.18em] text-secondary transition-colors hover:text-primary"
+              activeProps={{ className: "text-primary" }}
+            >
+              {l.label}
+            </Link>
+          ))}
+        </div>
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
+          <a
+            href={BOLETO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-outline-navy !px-5 !py-2.5"
           >
-            {l.label}
-          </Link>
-        ))}
-        <a
-          href={BOLETO_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-outline-navy !px-5 !py-2.5"
-        >
-          2ª via de boleto
-        </a>
-        <a
-          href={WHATSAPP_URL}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn-navy !px-6 !py-3"
-        >
-          Solicite uma Proposta
-        </a>
+            2ª via de boleto
+          </a>
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-navy !px-6 !py-3"
+          >
+            Solicite uma Proposta
+          </a>
+        </div>
       </nav>
 
       {open && (
