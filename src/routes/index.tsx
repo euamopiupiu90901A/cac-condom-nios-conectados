@@ -68,7 +68,7 @@ function Index() {
                 Ver serviços
               </Link>
             </div>
-            <dl className="mt-12 grid grid-cols-2 gap-8 border-t border-border pt-8 sm:grid-cols-4">
+            <dl className="mt-12 grid grid-cols-2 gap-8 border-t border-border pt-8">
               <div>
                 <dt className="section-label">Experiência</dt>
                 <dd className="mt-1 text-2xl font-extrabold text-primary">+38 anos</dd>
