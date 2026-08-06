@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 
 import heroImg from "@/assets/hero-condominio.jpg";
-import appImg from "@/assets/app-condomino.jpg";
+import appImg from "@/assets/hand-phone-app.svg";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -121,7 +121,7 @@ function Index() {
           <div className="rounded-lg bg-cream p-8">
             <img
               src={appImg}
-              alt="Celular exibindo o painel do aplicativo Área do Condômino"
+              alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
               width={1200}
               height={1200}
               loading="lazy"
