@@ -132,8 +132,10 @@ function Index() {
               loading="lazy"
               className="mx-auto w-full max-w-xs rounded-lg object-cover"
             />
-            <h3 className="absolute left-8 top-8 text-xs font-bold uppercase tracking-[0.14em] text-primary">
-              Baixe o aplicativo
+            <h3 className="absolute left-8 top-8 text-xl font-bold uppercase leading-tight tracking-[0.14em] text-primary">
+              Baixe o
+              <br />
+              aplicativo
             </h3>
             <div className="mt-8 flex flex-col gap-3">
               <a
