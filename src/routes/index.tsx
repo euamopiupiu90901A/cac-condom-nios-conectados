@@ -79,7 +79,7 @@ function Index() {
               </div>
               <div>
                 <dt className="section-label">Unidades Atendidas</dt>
-                <dd className="mt-1 text-2xl font-extrabold text-primary">4.489 unidades</dd>
+                <dd className="mt-1 text-2xl font-extrabold text-primary">4.489</dd>
               </div>
               <div>
                 <dt className="section-label">Atuação</dt>
