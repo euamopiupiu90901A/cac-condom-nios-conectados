@@ -12,7 +12,7 @@ export const Route = createFileRoute("/sobre")({
       {
         name: "description",
         content:
-          "Quase 40 anos de mercado em administração de condomínios em Maringá-PR: transparência, tecnologia e atendimento personalizado a síndicos e condôminos.",
+          "+38 anos de mercado em administração de condomínios em Maringá-PR e região: transparência, tecnologia e atendimento personalizado a síndicos e condôminos.",
       },
       { property: "og:title", content: "Sobre a C.A.C. | Assessoria Condominial Maringá-PR" },
       {
@@ -58,7 +58,7 @@ function Sobre() {
         <div className="mx-auto max-w-6xl px-5 py-20 md:py-24">
           <p className="section-label">Sobre nós</p>
           <h1 className="heading-xl mt-5 max-w-2xl text-4xl md:text-5xl">
-            Quase 40 anos cuidando de condomínios em Maringá
+            +38 anos cuidando de condomínios em Maringá-PR e região
           </h1>
         </div>
       </section>
@@ -68,7 +68,7 @@ function Sobre() {
           <h2 className="heading-xl text-2xl md:text-3xl">Nossa história</h2>
           <p className="mt-6 text-base leading-relaxed text-secondary">
             A C.A.C. — Consultoria e Apoio a Condomínios nasceu em Maringá e construiu, ao longo de
-            quase quatro décadas, uma trajetória sólida na administração condominial. Hoje somos
+            mais de 38 anos, uma trajetória sólida na administração condominial. Hoje somos
             responsáveis por uma carteira de cerca de 69 condomínios, entre residenciais e
             comerciais, atendidos por uma equipe multidisciplinar.
           </p>

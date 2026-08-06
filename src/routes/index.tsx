@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Gestão confiável para o seu condomínio. Administradora de condomínios em Maringá-PR com quase 40 anos de atuação e app Área do Condômino.",
+          "Gestão confiável para o seu condomínio. Administradora de condomínios em Maringá-PR e região com +38 anos de atuação e app Área do Condômino.",
       },
       { property: "og:title", content: "Administradora de Condomínios em Maringá | C.A.C." },
       {
@@ -70,7 +70,7 @@ function Index() {
             <dl className="mt-12 grid grid-cols-2 gap-8 border-t border-border pt-8 sm:grid-cols-3">
               <div>
                 <dt className="section-label">Experiência</dt>
-                <dd className="mt-1 text-2xl font-extrabold text-primary">40 anos</dd>
+                <dd className="mt-1 text-2xl font-extrabold text-primary">+38 anos</dd>
               </div>
               <div>
                 <dt className="section-label">Carteira</dt>
@@ -78,7 +78,7 @@ function Index() {
               </div>
               <div>
                 <dt className="section-label">Atuação</dt>
-                <dd className="mt-1 text-2xl font-extrabold text-primary">Maringá-PR</dd>
+                <dd className="mt-1 text-2xl font-extrabold text-primary">Maringá-PR e região</dd>
               </div>
             </dl>
           </div>

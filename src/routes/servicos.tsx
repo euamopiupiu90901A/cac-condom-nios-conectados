@@ -13,13 +13,13 @@ import {
 export const Route = createFileRoute("/servicos")({
   head: () => ({
     meta: [
-      { title: "Serviços de Assessoria Condominial em Maringá-PR | C.A.C." },
+      { title: "Serviços de Administração Condominial em Maringá-PR | C.A.C." },
       {
         name: "description",
         content:
           "Serviços da administradora de condomínios em Maringá: prestação de contas, folha de pagamento, boletos, cobrança, assembleias, consultoria e implantação.",
       },
-      { property: "og:title", content: "Serviços de Assessoria Condominial em Maringá-PR | C.A.C." },
+      { property: "og:title", content: "Serviços de Administração Condominial em Maringá-PR | C.A.C." },
       {
         property: "og:description",
         content:

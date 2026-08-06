@@ -19,7 +19,7 @@ export function Footer() {
             />
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed opacity-80">
-            Administração e assessoria condominial em Maringá-PR há quase 40 anos, com cerca de 69
+            Administração e assessoria condominial em Maringá-PR e região há +38 anos, com cerca de 69
             condomínios administrados.
           </p>
         </div>

@@ -79,7 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "C.A.C. Consultoria e Apoio a Condomínios: administradora de condomínios em Maringá-PR com quase 40 anos de experiência.",
+          "C.A.C. Consultoria e Apoio a Condomínios: administradora de condomínios em Maringá-PR e região com +38 anos de experiência.",
       },
       { name: "author", content: "C.A.C. Consultoria e Apoio a Condomínios" },
       { property: "og:site_name", content: "C.A.C. Consultoria e Apoio a Condomínios" },
@@ -105,7 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "@type": "LocalBusiness",
           name: "C.A.C. Consultoria e Apoio a Condomínios",
           description:
-            "Administradora de condomínios e assessoria condominial em Maringá-PR, com quase 40 anos de atuação.",
+            "Administradora de condomínios e assessoria condominial em Maringá-PR e região, com +38 anos de atuação.",
           additionalType: "https://schema.org/RealEstateAgent",
           knowsAbout: "Administradora de condomínios",
           address: {
