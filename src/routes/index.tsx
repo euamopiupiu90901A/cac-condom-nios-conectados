@@ -12,7 +12,7 @@ import {
 import heroImg from "@/assets/hero-condominio.jpg";
 import appImg from "@/assets/hand-phone-app.svg";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
-import { depoimentos } from "@/lib/depoimentos";
+import { depoimentosHome } from "@/lib/depoimentos-home";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -163,7 +163,7 @@ function Index() {
         <div className="mx-auto max-w-6xl px-5 py-20">
           <h2 className="heading-xl text-2xl md:text-3xl">Feedback de moradores e síndicos</h2>
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
-            {depoimentos.map((d) => (
+            {depoimentosHome.map((d) => (
               <li
                 key={d.autor}
                 className="flex flex-col rounded-lg border border-border bg-card p-7 shadow-card"
