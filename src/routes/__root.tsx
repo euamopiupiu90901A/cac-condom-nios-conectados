@@ -156,6 +156,7 @@ function RootComponent() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <Toaster />
     </QueryClientProvider>
   );
 }
