@@ -123,20 +123,18 @@ function Index() {
             ))}
           </ul>
 
-          <div className="rounded-lg bg-cream p-8">
-            <div className="relative w-full max-w-xs">
-              <img
-                src={appImg}
-                alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
-                width={1200}
-                height={1200}
-                loading="lazy"
-                className="w-full rounded-lg object-cover"
-              />
-              <h3 className="absolute left-0 top-4 text-xs font-bold uppercase tracking-[0.14em] text-primary">
-                Baixe o aplicativo
-              </h3>
-            </div>
+          <div className="relative rounded-lg bg-cream p-8">
+            <img
+              src={appImg}
+              alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
+              width={1200}
+              height={1200}
+              loading="lazy"
+              className="mx-auto w-full max-w-xs rounded-lg object-cover"
+            />
+            <h3 className="absolute left-8 top-8 text-xs font-bold uppercase tracking-[0.14em] text-primary">
+              Baixe o aplicativo
+            </h3>
             <div className="mt-8 flex flex-col gap-3">
               <a
                 href="https://play.google.com/store"
