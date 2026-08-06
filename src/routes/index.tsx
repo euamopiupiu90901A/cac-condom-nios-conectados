@@ -124,7 +124,7 @@ function Index() {
           </ul>
 
           <div className="rounded-lg bg-cream p-8">
-            <div className="relative mx-auto w-full max-w-xs">
+            <div className="relative w-full max-w-xs">
               <img
                 src={appImg}
                 alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
