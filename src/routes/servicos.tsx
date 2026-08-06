@@ -5,6 +5,7 @@ import {
   MessageSquare,
   Receipt,
   Handshake,
+  Landmark,
   BookOpenCheck,
   ScrollText,
   Building2,
@@ -57,6 +58,11 @@ const prestados = [
     icon: Handshake,
     title: "Suporte",
     desc: "Participação em assembleias ordinárias e extraordinárias e elaboração das respectivas atas.",
+  },
+  {
+    icon: Landmark,
+    title: "Gestão de Impostos",
+    desc: "Controle de impostos e emissão das guias para pagamentos.",
   },
 ];
 
