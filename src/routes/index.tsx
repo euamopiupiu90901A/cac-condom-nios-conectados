@@ -132,7 +132,7 @@ function Index() {
               loading="lazy"
               className="mx-auto w-full max-w-xs rounded-lg object-cover"
             />
-            <h3 className="absolute left-8 top-8 text-2xl font-bold uppercase leading-tight text-primary">
+            <h3 className="absolute left-8 top-8 text-2xl font-extrabold uppercase leading-tight text-primary">
               <span className="block tracking-[0.55em]">Baixe o</span>
               <span className="block tracking-[0.14em]">aplicativo</span>
             </h3>
