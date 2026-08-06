@@ -138,7 +138,7 @@ function Index() {
             </h3>
             <div className="mt-8 flex flex-col gap-3">
               <a
-                href="https://play.google.com/store"
+                href="https://play.google.com/store/apps/details?id=com.condor.superlogica&hl=pt_BR"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-navy"
@@ -146,7 +146,7 @@ function Index() {
                 Baixar para Android
               </a>
               <a
-                href="https://www.apple.com/br/app-store/"
+                href="https://apps.apple.com/br/app/condom%C3%ADnio-%C3%A1rea-do-cond%C3%B4mino/id1160849001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-outline-navy"
