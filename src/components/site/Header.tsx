@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-import logo from "@/assets/cac-logo.png.asset.json";
+import logo from "@/assets/cac-logo.png";
 import { WHATSAPP_URL } from "@/lib/whatsapp";
 
 const links = [
@@ -23,7 +23,7 @@ export function Header() {
       <div className="relative mx-auto flex max-w-6xl items-center justify-center px-5 py-4">
         <Link to="/" className="flex items-center" aria-label="C.A.C. — página inicial">
           <img
-            src={logo.url}
+            src={logo}
             alt="Logotipo da C.A.C. Consultoria e Apoio a Condomínios"
             width={220}
             height={64}

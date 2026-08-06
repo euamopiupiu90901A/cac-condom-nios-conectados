@@ -1,7 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Mail, MapPin, Phone } from "lucide-react";
 
-import logo from "@/assets/cac-logo.png.asset.json";
+import logo from "@/assets/cac-logo.png";
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <div className="inline-flex rounded-md bg-background px-4 py-3">
             <img
-              src={logo.url}
+              src={logo}
               alt="Logotipo da C.A.C. Consultoria e Apoio a Condomínios"
               width={220}
               height={64}
