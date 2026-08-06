@@ -124,18 +124,20 @@ function Index() {
           </ul>
 
           <div className="rounded-lg bg-cream p-8">
-            <img
-              src={appImg}
-              alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
-              width={1200}
-              height={1200}
-              loading="lazy"
-              className="mx-auto w-full max-w-xs rounded-lg object-cover"
-            />
-            <h3 className="mt-8 text-sm font-bold uppercase tracking-[0.14em] text-primary">
-              Baixe o aplicativo
-            </h3>
-            <div className="mt-4 flex flex-col gap-3">
+            <div className="relative mx-auto w-full max-w-xs">
+              <img
+                src={appImg}
+                alt="Ilustração de uma mão segurando um celular com o aplicativo Área do Condômino"
+                width={1200}
+                height={1200}
+                loading="lazy"
+                className="w-full rounded-lg object-cover"
+              />
+              <h3 className="absolute left-1/2 top-4 -translate-x-1/2 rounded-full bg-background px-4 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-primary shadow-card">
+                Baixe o aplicativo
+              </h3>
+            </div>
+            <div className="mt-8 flex flex-col gap-3">
               <a
                 href="https://play.google.com/store"
                 target="_blank"
