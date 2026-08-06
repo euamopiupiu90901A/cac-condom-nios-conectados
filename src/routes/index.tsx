@@ -73,7 +73,7 @@ function Index() {
                 <dd className="mt-1 text-2xl font-extrabold text-primary">+38 anos</dd>
               </div>
               <div>
-                <dt className="section-label">Carteira</dt>
+                <dt className="section-label">Condomínios atendidos</dt>
                 <dd className="mt-1 text-2xl font-extrabold text-primary">+70 condomínios</dd>
               </div>
               <div>
