@@ -150,7 +150,7 @@ function RootComponent() {
   return (
     <QueryClientProvider client={queryClient}>
       <Header />
-      <main className="pt-[72px] md:pt-[84px]">
+      <main className="pt-[112px] md:pt-[172px]">
         {/* Required: nested routes render here. */}
         <Outlet />
       </main>
