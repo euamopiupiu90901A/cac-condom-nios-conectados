@@ -87,15 +87,15 @@ function Contato() {
                 Nome
               </label>
               <input id="nome" name="nome" className={field} maxLength={100} />
-              {errors.nome && <p className="mt-2 text-xs text-destructive">{errors.nome}</p>}
+              {errors['nome'] && <p className="mt-2 text-xs text-destructive">{errors['nome']}</p>}
             </div>
             <div>
               <label className={label} htmlFor="condominio">
                 Condomínio
               </label>
               <input id="condominio" name="condominio" className={field} maxLength={120} />
-              {errors.condominio && (
-                <p className="mt-2 text-xs text-destructive">{errors.condominio}</p>
+              {errors['condominio'] && (
+                <p className="mt-2 text-xs text-destructive">{errors['condominio']}</p>
               )}
             </div>
             <div>
@@ -103,14 +103,14 @@ function Contato() {
                 Telefone
               </label>
               <input id="telefone" name="telefone" type="tel" className={field} maxLength={20} />
-              {errors.telefone && <p className="mt-2 text-xs text-destructive">{errors.telefone}</p>}
+              {errors['telefone'] && <p className="mt-2 text-xs text-destructive">{errors['telefone']}</p>}
             </div>
             <div>
               <label className={label} htmlFor="email">
                 E-mail
               </label>
               <input id="email" name="email" type="email" className={field} maxLength={255} />
-              {errors.email && <p className="mt-2 text-xs text-destructive">{errors.email}</p>}
+              {errors['email'] && <p className="mt-2 text-xs text-destructive">{errors['email']}</p>}
             </div>
           </div>
 
@@ -119,7 +119,7 @@ function Contato() {
               Mensagem
             </label>
             <textarea id="mensagem" name="mensagem" rows={5} className={field} maxLength={1000} />
-            {errors.mensagem && <p className="mt-2 text-xs text-destructive">{errors.mensagem}</p>}
+            {errors['mensagem'] && <p className="mt-2 text-xs text-destructive">{errors['mensagem']}</p>}
           </div>
 
           <button type="submit" className="btn-navy mt-8 w-full sm:w-auto">
