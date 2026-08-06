@@ -12,8 +12,8 @@ export function Footer() {
             <img
               src={logo}
               alt="Logotipo da C.A.C. Consultoria e Apoio a Condomínios"
-              width={220}
-              height={64}
+              width={811}
+              height={233}
               loading="lazy"
               className="h-9 w-auto"
             />

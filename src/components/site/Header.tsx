@@ -25,9 +25,9 @@ export function Header() {
           <img
             src={logo}
             alt="Logotipo da C.A.C. Consultoria e Apoio a Condomínios"
-            width={220}
-            height={64}
-            className="h-32 w-auto md:h-36"
+            width={811}
+            height={233}
+            className="h-24 w-auto md:h-28"
           />
         </Link>
 
