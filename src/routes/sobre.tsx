@@ -80,7 +80,7 @@ function Sobre() {
           <h2 className="heading-xl mt-12 text-2xl md:text-3xl">Nosso diferencial</h2>
           <p className="mt-6 text-base leading-relaxed text-secondary">
             Atendimento personalizado: cada condomínio conta com acompanhamento próximo, respostas
-            rápidas e estratégias desenhadas para a sua realidade — nunca soluções genéricas.
+            rápidas e estratégias desenhadas para a sua realidade, nunca soluções genéricas.
           </p>
         </div>
 
