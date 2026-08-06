@@ -20,14 +20,14 @@ export function Header() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-background">
-      <div className="relative mx-auto flex max-w-6xl items-center justify-center px-5 py-4">
+      <div className="relative mx-auto flex max-w-6xl items-center justify-center px-5 py-1.5">
         <Link to="/" className="flex items-center" aria-label="C.A.C. — página inicial">
           <img
             src={logo}
             alt="Logotipo da C.A.C. Consultoria e Apoio a Condomínios"
             width={220}
             height={64}
-            className="h-28 w-auto md:h-32"
+            className="h-32 w-auto md:h-36"
           />
         </Link>
 
