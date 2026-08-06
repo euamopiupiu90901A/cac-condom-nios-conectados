@@ -54,7 +54,7 @@ function Index() {
             <h1 className="heading-xl mt-5 text-4xl md:text-5xl">
               Gestão confiável para o seu condomínio
             </h1>
-            <p className="mt-6 max-w-xl text-base leading-relaxed text-secondary-foreground/90 text-secondary">
+            <p className="mt-6 max-w-xl text-base leading-relaxed text-secondary">
               A C.A.C. cuida da burocracia para que o síndico possa focar no que realmente importa:
               tornar o dia a dia dos condôminos mais prático. Trabalhamos com estratégias sob medida,
               análise de dados e práticas modernas de gestão condominial.
