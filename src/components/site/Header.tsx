@@ -20,7 +20,7 @@ export function Header() {
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-background">
-      <div className="relative mx-auto flex max-w-6xl items-center justify-center px-5 py-1.5">
+      <div className="relative mx-auto flex max-w-6xl items-center justify-center px-5 pt-5 pb-2">
         <Link to="/" className="flex items-center" aria-label="C.A.C. — página inicial">
           <img
             src={logo}
@@ -44,7 +44,7 @@ export function Header() {
 
       <nav
         aria-label="Navegação principal"
-        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-start gap-x-8 gap-y-3 px-5 pt-3 pb-4 md:flex"
+        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-start gap-x-8 gap-y-3 px-5 pt-2 pb-3 md:flex"
       >
         {links.map((l) => (
           <Link
