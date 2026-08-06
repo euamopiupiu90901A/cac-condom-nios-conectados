@@ -162,6 +162,10 @@ function Index() {
       <section className="bg-cream">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <h2 className="heading-xl text-2xl md:text-3xl">Feedback de moradores e síndicos</h2>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-secondary">
+            Esta seção apresenta depoimentos de clientes, evidenciando suas experiências e o grau
+            de satisfação com nossos serviços.
+          </p>
           <ul className="mt-10 grid gap-6 md:grid-cols-3">
             {depoimentosHome.map((d) => (
               <li
