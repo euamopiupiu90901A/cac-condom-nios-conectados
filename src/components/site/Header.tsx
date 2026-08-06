@@ -44,7 +44,7 @@ export function Header() {
 
       <nav
         aria-label="Navegação principal"
-        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-5 pb-4 md:flex"
+        className="mx-auto hidden max-w-6xl flex-wrap items-center justify-center gap-x-8 gap-y-3 px-5 pt-3 pb-4 md:flex"
       >
         {links.map((l) => (
           <Link
